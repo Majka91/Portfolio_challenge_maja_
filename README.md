@@ -117,9 +117,11 @@ https://docs.google.com/spreadsheets/d/1p_IvMNyt3BvLAFJwj0qZYxqbq75bnNNEeMAKMn7F
 ### “TASK 3”  
 #### “Subtask 2”
 <p align="justify"> Testowanie według planów testów i raportowanie błędów </p>
+https://docs.google.com/spreadsheets/d/1VoGeIhWJYYie7Jc7FUuUA0KJN-Lc6Buw4GogqKWf-q8/edit?usp=sharing
 
 #### “Subtask 2”
 <p align="justify"> Raport z wykonanych testów </p>
+https://docs.google.com/document/d/1gE3Mlz0EdnhrhCxJiF6x_umMLIiYptxUz97yV14RGTA/edit?usp=sharing
 
 
 
