@@ -114,6 +114,18 @@ https://docs.google.com/spreadsheets/d/1p_IvMNyt3BvLAFJwj0qZYxqbq75bnNNEeMAKMn7F
 
 
 
+### “TASK 3”  
+#### “Subtask 2”
+<p align="justify"> Testowanie według planów testów i raportowanie błędów </p>
+
+#### “Subtask 2”
+<p align="justify"> Raport z wykonanych testów </p>
+
+
+
+
+
+
 
 
 
