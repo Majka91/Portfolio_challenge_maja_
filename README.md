@@ -123,6 +123,30 @@ https://docs.google.com/spreadsheets/d/1VoGeIhWJYYie7Jc7FUuUA0KJN-Lc6Buw4GogqKWf
 https://docs.google.com/document/d/1gE3Mlz0EdnhrhCxJiF6x_umMLIiYptxUz97yV14RGTA/edit?usp=sharing
 
 
+----------------------------------------
+
+### “TASK 4”  
+#### “Subtask 2”
+<p align="justify"> Testowanie eksploracyjne i raportowanie błędów - OLX </p>
+https://docs.google.com/spreadsheets/d/1ZfZrtcyD4mK_S-xve00Uasxp0m0n6eJ-34-t3vFuXGI/edit#gid=0
+
+#### “Subtask 3”
+
+1.Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
+  Aplikacja sluzy do sprzedazy i kupna , lokalnie jak i wysylkowo roznego typu produktów . Mozna tam również znaleźć noclegi i usługi . Wiec tak na prawde można takm znaleźć wszystko czego potrzebujesz, od podręczników, po materiały budowlane i kosmetyczki .
+
+2.Kto ma być użytkownikiem końcowym aplikacji?
+  Użytkownikiem końcowym aplikacji ma byc każdy kto czegoś szuka/ potrzebuje ponieważ można tam znaleźć niemalże wszystko.
+  
+3.Czy według Ciebie aplikacja jest user friendly? 
+  Aplikacja jest bardzo intuicyjna . Łatwo jest znaleźć to czego się potrzebuje . 
+
+4.Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? 
+  Dałabym możliwość w niekórych kategoriach jak np. ubrania/meble filtrowania po kolorze 
+  
+5.Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej? 
+
+
 
 
 
