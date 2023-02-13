@@ -147,6 +147,77 @@ https://docs.google.com/spreadsheets/d/1ZfZrtcyD4mK_S-xve00Uasxp0m0n6eJ-34-t3vFu
 5.Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej? 
 
 
+----------------------------------------
+
+### “TASK 4”  
+#### “Subtask 2”
+Najważniejsze zagadnienia które warto zapamiętać :
+
+#### “Subtask 3”
+<p align="justify"> 1. Wyswietl cała zawartość tabeli actors 
+SELECT * FROM actors
+
+
+![ ](images/2023-02-13_17h58_01.png)
+
+2. Sortuj alfabetycznie po surname
+SELECT * FROM `actors` ORDER BY surname;
+
+![ ](images/order%20by%20surname.jpg)
+
+3. Film z 2019 roku
+SELECT * FROM `movies` WHERE year_of_production = 2019
+
+![ ](images/movie2019.jpg)
+
+
+4. Filmy, które powstały między 1900, a 1999 rokiem
+SELECT * FROM `movies` WHERE year_of_production BETWEEN 1900 AND 1999
+
+![ ](images/Zrzut%20ekranu%202023-02-13%20185835.jpg)
+
+5. Wyświetl JEDYNIE tytuł i cenę filmów, które kosztują poniżej 7$
+SELECT title, price FROM `movies` WHERE price < 7
+![ ](images/cena.jpg)
+
+6. Użyj operatora logicznego AND, aby wyświetlić aktorów o actor_id pomiędzy 4-7 (4 i 7 powinny się wyświetlać). NIE UŻYWAJ operatora BETWEEN
+SELECT * FROM `actors` WHERE actor_id >= 4 AND actor_id <=7;
+
+![ ](images/actorid.jpg)
+
+7. Wyświetl klientów o id 2,4,6 wykorzystaj do tego warunek logiczny.
+SELECT * FROM `actors` WHERE actor_id = 2 OR actor_id = 4 OR actor_id = 6
+
+![ ](images/id246.jpg)
+
+8. Wyświetl klientów o id 1,3,5 wykorzystaj do tego operator IN.
+SELECT * FROM `actors` WHERE actor_id IN (1, 3, 5);
+
+![ ](images/WYKORZYSTANIEIN.jpg)
+
+9. Wyświetl dane wszystkich osób z tabeli ‘actors’, których imię zaczyna się od ciągu “An" 
+SELECT * FROM `actors` WHERE name LIKE 'An%'
+![ ](images/like.jpg)
+
+10. Wyświetl dane klienta, który nie ma podanego adresu email
+SELECT * FROM `customers` WHERE email IS NULL
+![ ](images/PUSTYEMAIL.jpg)
+
+11. Wyświetl wszystkie filmy, których cena wynosi powyżej 9$ oraz ich ID mieści się pomiędzy 2 i 8 movie_id.
+SELECT * FROM `movies` WHERE price > 9 AND ( movie_id BETWEEN 2 AND 8 )
+
+![ ](images/Zrzut%20ekranu%202023-02-13%20194232.jpg)
+</p>
+
+
+
+
+
+
+
+
+
+
 
 
 
