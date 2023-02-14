@@ -133,18 +133,20 @@ https://docs.google.com/spreadsheets/d/1ZfZrtcyD4mK_S-xve00Uasxp0m0n6eJ-34-t3vFu
 #### “Subtask 3”
 
 1.Do czego służy ta aplikacja? Jaki jest cel tej aplikacji?
-  Aplikacja sluzy do sprzedazy i kupna , lokalnie jak i wysylkowo roznego typu produktów . Mozna tam również znaleźć noclegi i usługi . Wiec tak na prawde można takm znaleźć wszystko czego potrzebujesz, od podręczników, po materiały budowlane i kosmetyczki .
+ * Aplikacja sluzy do sprzedazy i kupna , lokalnie jak i wysylkowo roznego typu produktów . Mozna tam również znaleźć noclegi i usługi . Wiec tak na prawde można takm znaleźć wszystko czego potrzebujesz, od podręczników, po materiały budowlane i kosmetyczki .
 
 2.Kto ma być użytkownikiem końcowym aplikacji?
-  Użytkownikiem końcowym aplikacji ma byc każdy kto czegoś szuka/ potrzebuje ponieważ można tam znaleźć niemalże wszystko.
+ * Użytkownikiem końcowym aplikacji ma byc każdy kto czegoś szuka/ potrzebuje ponieważ można tam znaleźć niemalże wszystko.
   
 3.Czy według Ciebie aplikacja jest user friendly? 
-  Aplikacja jest bardzo intuicyjna . Łatwo jest znaleźć to czego się potrzebuje . 
+ * Aplikacja jest bardzo intuicyjna . Łatwo jest znaleźć to czego się potrzebuje . 
 
 4.Jak byś usprawnił aplikację? Co byś w niej poprawił. Czy masz jakiś pomysł na dodatkową funkcjonalność? 
-  Dałabym możliwość w niekórych kategoriach jak np. ubrania/meble filtrowania po kolorze 
+ * Dałabym możliwość w niekórych kategoriach jak np. ubrania/meble filtrowania po kolorze 
   
 5.Jakie dostrzegasz różnice pomiędzy testowaniem aplikacji internetowej, a natywnej? 
+  * Aplikacja natywna to aplikacja tworzona na konkretną platformę . Natywna aplikacja musi byc pobrana i zaintsalowana na urządzeniu np. poprzez Google Play Market i App Store. Aplikacje internetowe dzialają poprzez przeglądarke internetową .
+
 
 
 ----------------------------------------
@@ -152,6 +154,16 @@ https://docs.google.com/spreadsheets/d/1ZfZrtcyD4mK_S-xve00Uasxp0m0n6eJ-34-t3vFu
 ### “TASK 4”  
 #### “Subtask 2”
 Najważniejsze zagadnienia które warto zapamiętać :
+* SELECT * from nazwa_tabeli - wyswietla całą tabelę
+* SELECT * from nazwa_tabeli WHERE wiek = 14 - wyswietla tabele z osobami które ukonczyly 14 lat 
+* OR - np. SELECT * from nazwa_tabeli WHERE wiek = 14 OR wiek = 12 - pokaza nam sie wszystkie osoby ktore maja 14 lat lub 12 lat
+* AND - np, SELECT * from nazwa_tabeli WHERE wiek = 14 AND name= 'Andrzej' - wyswietli nam wszystkich Andrzejow w wieku 14 lat
+* ORDER BY - filtrowanie - ASC, czyli malejąco , DESC, czyli rosnąco
+* IN - porownuje wartosci z podanymi danymi 
+* BETWEEN – sprawdza, czy wartość mieści się w zadanym zakresie
+* LIKE - wyszukuje okreslony wzorzec np. rozpoczęcie imienia na litere A - SELECT * FROM `actors` WHERE name LIKE 'A%' , jesli ma sie kończyc na a to będzie LIKE '%a', a jesli ma miec w slowim slowie np apa to uzywamy '%apa' 
+* MAX - cos największego np. SELECT MAX(Price) FROM Products;
+
 
 #### “Subtask 3”
 <p align="justify"> 1. Wyswietl cała zawartość tabeli actors 
